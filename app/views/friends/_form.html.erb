@@ -2,7 +2,6 @@
   <% if friend.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(friend.errors.count, "error") %> prohibited this friend from being saved:</h2>
-
       <ul>
         <% friend.errors.each do |error| %>
           <li><%= error.full_message %></li>
@@ -11,19 +10,19 @@
     </div>
   <% end %>
 
-  <div class="field form-group">
+  <div class="field form-group form-spaces">
     <%= form.text_field :first_name, class: "form-control", placeholder:"First Name" %>
   </div>
 
-  <div class="field form-group">
+  <div class="field form-group form-spaces">
     <%= form.text_field :last_name, class: "form-control", placeholder:"Last name" %>
   </div>
 
-  <div class="field form-group">
+  <div class="field form-group form-spaces">
     <%= form.text_field :email, class: "form-control", placeholder:"email" %>
   </div>
 
-  <div class="field form-group" >
+  <div class="field form-group form-spaces" >
     <%= form.text_field :phone, class: "form-control", placeholder:"phone" %>
   </div>
 

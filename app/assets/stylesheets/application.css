@@ -13,3 +13,21 @@
  *= require_tree .
  *= require_self
  */
+
+ /* IF YOU DESTROY THIS FILE NONE CSS FILE WILL EVER WORK */
+
+ /* My styling */
+
+ #friends-h1, .btn-back, .h1-new-friend {
+   margin: 2% 5%;
+ }
+
+ .btn-add-friend {
+   margin-left: 5%;
+ }
+
+ .form-spaces {
+   margin-bottom: 2%;
+ }
+
+ 
